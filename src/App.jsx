@@ -1,14 +1,13 @@
-// import React, {Component} from 'react';
-// import './App.css';
-// import Counter from './Components/counter/counter.jsx';
+import React, {Component} from 'react';
+import './App.css';
 
-// const App = () => {
-//     return (
-//       <div>
-//         <Counter initialValue={0} />
-//       </div>
-//     );
-// }
+const App = () => {
+    return (
+      <div>
+        helloworld
+      </div>
+    );
+}
 
 
-// export default App
+export default App
