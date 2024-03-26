@@ -6,59 +6,59 @@ const menu = () => {
         <div>
         
     
-      <div class="container my-5">
-        <h1 class="text-center mb-4">Ласкаво просимо до Піца Кафе!</h1>
-        <p class="lead text-center mb-4">Ми пропонуємо найкращі піци та каву у місті. Замовте вже зараз!</p>
+      <div className="container my-5">
+        <h1 className="text-center mb-4">Ласкаво просимо до Піца Кафе!</h1>
+        <p className="lead text-center mb-4">Ми пропонуємо найкращі піци та каву у місті. Замовте вже зараз!</p>
       </div>
-      <div class="container my-5">
-        <h1 class="text-center mb-4">Ласкаво просимо до Піца Кафе!</h1>
-        <p class="lead text-center mb-4">Ми пропонуємо найкращі піци та каву у місті. Замовте вже зараз!</p>
-      </div> <div class="container my-5">
+      <div className="container my-5">
+        <h1 className="text-center mb-4">Ласкаво просимо до Піца Кафе!</h1>
+        <p className="lead text-center mb-4">Ми пропонуємо найкращі піци та каву у місті. Замовте вже зараз!</p>
+      </div> <div className="container my-5">
         {/* <!-- Содержимое главной страницы --> */}
-        <h1 class="text-center mb-4">Ласкаво просимо до Піца Кафе!</h1>
-        <p class="lead text-center mb-4">Ми пропонуємо найкращі піци та каву у місті. Замовте вже зараз!</p>
+        <h1 className="text-center mb-4">Ласкаво просимо до Піца Кафе!</h1>
+        <p className="lead text-center mb-4">Ми пропонуємо найкращі піци та каву у місті. Замовте вже зараз!</p>
+        {/* <!-- Добавьте фотографии и текст акций --> */}
+      </div> <div className="container my-5">
+        {/* <!-- Содержимое главной страницы --> */}
+        <h1 className="text-center mb-4">Ласкаво просимо до Піца Кафе!</h1>
+        <p className="lead text-center mb-4">Ми пропонуємо найкращі піци та каву у місті. Замовте вже зараз!</p>
+        {/* <!-- Добавьте фотографии и текст акций --> */}
+      </div> <div className="container my-5">
+        {/* <!-- Содержимое главной страницы --> */}
+        <h1 className="text-center mb-4">Ласкаво просимо до Піца Кафе!</h1>
+        <p className="lead text-center mb-4">Ми пропонуємо найкращі піци та каву у місті. Замовте вже зараз!</p>
+        {/* <!-- Добавьте фотографии и текст акций --> */}
+      </div> <div className="container my-5">
+        {/* <!-- Содержимое главной страницы --> */}
+        <h1 className="text-center mb-4">Ласкаво просимо до Піца Кафе!</h1>
+        <p className="lead text-center mb-4">Ми пропонуємо найкращі піци та каву у місті. Замовте вже зараз!</p>
+        {/* <!-- Добавьте фотографии и текст акций --> */}
+      </div> <div className="container my-5">
+        {/* <!-- Содержимое главной страницы --> */}
+        <h1 className="text-center mb-4">Ласкаво просимо до Піца Кафе!</h1>
+        <p className="lead text-center mb-4">Ми пропонуємо найкращі піци та каву у місті. Замовте вже зараз!</p>
         {/* <!-- Добавьте фотографии и текст акций --> */}
       </div> <div class="container my-5">
         {/* <!-- Содержимое главной страницы --> */}
-        <h1 class="text-center mb-4">Ласкаво просимо до Піца Кафе!</h1>
-        <p class="lead text-center mb-4">Ми пропонуємо найкращі піци та каву у місті. Замовте вже зараз!</p>
+        <h1 className="text-center mb-4">Ласкаво просимо до Піца Кафе!</h1>
+        <p className="lead text-center mb-4">Ми пропонуємо найкращі піци та каву у місті. Замовте вже зараз!</p>
         {/* <!-- Добавьте фотографии и текст акций --> */}
-      </div> <div class="container my-5">
+      </div> <div className="container my-5">
         {/* <!-- Содержимое главной страницы --> */}
-        <h1 class="text-center mb-4">Ласкаво просимо до Піца Кафе!</h1>
-        <p class="lead text-center mb-4">Ми пропонуємо найкращі піци та каву у місті. Замовте вже зараз!</p>
+        <h1 className="text-center mb-4">Ласкаво просимо до Піца Кафе!</h1>
+        <p className="lead text-center mb-4">Ми пропонуємо найкращі піци та каву у місті. Замовте вже зараз!</p>
         {/* <!-- Добавьте фотографии и текст акций --> */}
-      </div> <div class="container my-5">
+      </div> <div className="container my-5">
         {/* <!-- Содержимое главной страницы --> */}
-        <h1 class="text-center mb-4">Ласкаво просимо до Піца Кафе!</h1>
-        <p class="lead text-center mb-4">Ми пропонуємо найкращі піци та каву у місті. Замовте вже зараз!</p>
-        {/* <!-- Добавьте фотографии и текст акций --> */}
-      </div> <div class="container my-5">
-        {/* <!-- Содержимое главной страницы --> */}
-        <h1 class="text-center mb-4">Ласкаво просимо до Піца Кафе!</h1>
-        <p class="lead text-center mb-4">Ми пропонуємо найкращі піци та каву у місті. Замовте вже зараз!</p>
-        {/* <!-- Добавьте фотографии и текст акций --> */}
-      </div> <div class="container my-5">
-        {/* <!-- Содержимое главной страницы --> */}
-        <h1 class="text-center mb-4">Ласкаво просимо до Піца Кафе!</h1>
-        <p class="lead text-center mb-4">Ми пропонуємо найкращі піци та каву у місті. Замовте вже зараз!</p>
-        {/* <!-- Добавьте фотографии и текст акций --> */}
-      </div> <div class="container my-5">
-        {/* <!-- Содержимое главной страницы --> */}
-        <h1 class="text-center mb-4">Ласкаво просимо до Піца Кафе!</h1>
-        <p class="lead text-center mb-4">Ми пропонуємо найкращі піци та каву у місті. Замовте вже зараз!</p>
-        {/* <!-- Добавьте фотографии и текст акций --> */}
-      </div> <div class="container my-5">
-        {/* <!-- Содержимое главной страницы --> */}
-        <h1 class="text-center mb-4">Ласкаво просимо до Піца Кафе!</h1>
-        <p class="lead text-center mb-4">Ми пропонуємо найкращі піци та каву у місті. Замовте вже зараз!</p>
+        <h1 className="text-center mb-4">Ласкаво просимо до Піца Кафе!</h1>
+        <p className="lead text-center mb-4">Ми пропонуємо найкращі піци та каву у місті. Замовте вже зараз!</p>
         {/* <!-- Добавьте фотографии и текст акций --> */}
       </div>
     
       {/* <!-- Добавьте блоки для других страниц (Меню, Про нас, Корзина) --> */}
     
-      <footer class="bg-dark text-light py-4">
-        <div class="container text-center">
+      <footer className="bg-dark text-light py-4">
+        <div className="container text-center">
           <p>© 2024 Піца Кафе. Усі права захищені.</p>
         </div>
       </footer>
