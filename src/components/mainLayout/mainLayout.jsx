@@ -1,6 +1,7 @@
 import React from 'react';
 import { Outlet } from 'react-router-dom';
-const MainLayout = () => {<div>
+const MainLayout = () => {
+<div>
     <nav  className="navbar navbar-expand-lg navbar-light bg-light sticky-top bg-dark">
         <div className="container">
           <a classNameName="navbar-brand" href="#">
@@ -25,6 +26,7 @@ const MainLayout = () => {<div>
             <a className="nav-link" href="#">Корзина</a>
         </div>
       </nav>
+      
       <Outlet/>
 
       <footer className="bg-dark text-light py-4">
@@ -33,6 +35,7 @@ const MainLayout = () => {<div>
         </div>
       </footer>
 
-    </div>}
+</div>
+}
 
     export default MainLayout
