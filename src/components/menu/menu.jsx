@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import '../../App.css';
 
-const about = () => {
+const menu = () => {
     return (
         <div>    
       <div className="container my-5">
@@ -10,11 +10,11 @@ const about = () => {
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt repudiandae iste saepe voluptatem assumenda unde culpa ipsam temporibus minus, modi nisi sint qui dolores laborum, enim eius at voluptatum officia!
         </p>
       </div>
-        ABOUT US
+        MENU
       </div>
     );
 }
 
 
-export default about
+export default menu
 

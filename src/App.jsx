@@ -1,11 +1,20 @@
 import React, {Component} from 'react';
-import { NavLink, Route, Routes } from 'react-router-dom';
+import { NavLink, Outlet, Route, Routes } from 'react-router-dom';
 import './App.css';
-import Menu from './components/main/menu.jsx'
+import Menu from './components/menu/menu.jsx'
+import Main from './components/main/Main.jsx'
 import About from './components/about/about.jsx'
-const App = () => {
-  return (
-    <div>
+import {
+  BrowserRouter,
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
+
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <div>
     <nav  className="navbar navbar-expand-lg navbar-light bg-light sticky-top bg-dark">
         <div className="container">
           <a classNameName="navbar-brand" href="#">
@@ -20,23 +29,48 @@ const App = () => {
               <NavLink to='/'>Головна</NavLink>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">Меню</a>
+                <NavLink to='/menu'>Меню</NavLink>
               </li>
               <li className="nav-item">
-               <NavLink to='/about'>Про нас</NavLink>
+                <NavLink to='/about'>Про нас</NavLink>
               </li>
             </ul>
           </div>
             <a className="nav-link" href="#">Корзина</a>
         </div>
       </nav>
+      <Outlet/>
 
-    <Routes>
-        <Route path="/" element={<Menu />}></Route>
-        <Route path="/about" element={<About />}></Route>
-    </Routes>
+      <footer className="bg-dark text-light py-4">
+        <div className="container text-center">
+          <p>© 2024 Піца Кафе. Усі права захищені.</p>
+        </div>
+      </footer>
 
-    </div>
+    </div>,
+    children:[{
+      index: true,
+      element: <Main/>
+    },
+    {
+      path: "about",
+      element: <About />
+  },
+  {
+    path: "/menu",
+    element: <Menu />
+},]
+},
+
+  {
+      path: "*",
+      element: <div>No such page</div>
+  }
+])
+
+const App = () => {
+  return (
+    <RouterProvider router={router} />    
 )
 }
 

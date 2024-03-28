@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import '../../App.css';
 
-const menu = () => {
+const main = () => {
     return (
         <div>
         
@@ -67,7 +67,7 @@ const menu = () => {
 }
 
 
-export default menu
+export default main
 {/* <html lang="en">
 <head>
   <meta charset="UTF-8">
